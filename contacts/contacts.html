@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <script src="script.js"></script>
+        <title>A1 Construction - Оставить сообщение</title>
+    </head>
+    <body>
+        <header>
+            <span class="logo">
+                <h2>A1 Construction</h2>                        
+            </span>
+            <nav class="headnav">
+                    <a href="../main/main.html" class="regular">Главная</a>
+                    <a href="#" class="regular">О компании</a>
+                    <a href="#" class="regular">Контакты</a>
+                    <a href="#" class="admin">Админ панель</a>
+            </nav> 
+        </header>
+        <main>
+            <form action="#" >
+                <h1 style="font-size: 59px;">Оставить сообщение</h1>
+                <span id="ans">Мы обязательно вам ответим</span>                
+                <div class="formdiv">
+                    <div class="cell">                    
+                        <label for="firstname">Имя</label>
+                        <input type="text" name="firstname" id="firstname" placeholder="Роза"/>
+                    </div>
+                    <div class="cell">
+                        <label for="firstname">Фамилия</label>
+                        <input type="text" name="lastname" id="lastname" placeholder="Рахимова">
+                    </div>
+                    <div class="cell full">
+                        <label for="email">
+                            Email
+                        </label>
+                        <input type="email" placeholder="roza@gmail.com"/>
+                    </div>
+                    <div class="cell full">
+                        <label for="message">Ваше сообщение</label>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Введите ваше сообщение"></textarea>
+                    </div>
+                    <input type="submit" id="admin" value="Отправить" />
+                </div>
+            </form>
+            <img src="./building.jpg" alt="Здание" style="width: 575px;"/>
+        </main>
+        <footer>
+            <div class="social">
+                <span id="socialspan">
+                    A1 Construction
+                </span>
+                <img src="./fb.svg" class="socialicon" alt="Фейсбук" />                         
+                <img src="./in.svg" class="socialicon" alt="Инстаграмм" />                         
+                <img src="./youtube.svg" class="socialicon" alt="Ютуб" />                         
+                <img src="./inst.svg" class="socialicon" alt="Инстаграмм" /> 
+            </div>
+            <div class="navfooter">
+                <a href="#">Главная</a>
+                <a href="#">Контакты</a>
+                <a href="#">О компаниях</a>
+                <a href="#">Админ панель</a>
+            </div>
+        </footer>
+    </body>
+</html>
