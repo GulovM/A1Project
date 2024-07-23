@@ -3,7 +3,7 @@ name: Push-to-EC2-cometa_test_2
 on:
   push:
     branches:
-      - main
+      - master
 
 # Выполнить джоб с заданным именем на последней убунте
 jobs:
