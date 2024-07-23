@@ -1,4 +1,4 @@
-name: Push-to-EC2-cometa_test
+name: Push-to-EC2-cometa_test_2
 # Пушить только на изменения в ветке main
 on:
   push:
